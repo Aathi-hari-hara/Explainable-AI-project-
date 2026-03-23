@@ -45,7 +45,7 @@ with st.sidebar:
     """)
     
 
-if   page == "🏠 Home":        from modules import home;      home.render()
+if   page == "🏠 Home":        import home;      home.render()
 elif page == "📝 Text XAI":    from modules import text_xai;  text_xai.render()
 elif page == "🖼️ Image XAI":   from modules import image_xai; image_xai.render()
 elif page == "🎵 Audio XAI":   from modules import audio_xai; audio_xai.render()
